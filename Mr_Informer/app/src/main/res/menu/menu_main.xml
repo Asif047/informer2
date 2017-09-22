@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.asif047.mr_informer.InformActivity">
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="1"
+        android:title="Refresh"
+        app:showAsAction="never"
+
+        android:onClick="refresh_activity"
+        />
+
+    <item
+        android:id="@+id/action_log_out"
+        android:orderInCategory="2"
+        android:title="Log Out"
+        app:showAsAction="never"
+
+        android:onClick="log_out_click"
+
+        />
+
+
+</menu>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+    android:background="@drawable/informer_background4"
+    tools:context="com.example.asif047.mr_informer.InformActivity">
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/profile_textview"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:textColor="#0c91f7"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp">
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Address:"
+            android:textColor="#f5ea0505"
+            android:textStyle="bold|italic"
+            android:textSize="20dp"
+            />
+        <TextView
+
+            android:id="@+id/address_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#ffffff"
+            android:text="address"
+            />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp">
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="City:"
+            android:textColor="#f5ea0505"
+            android:textStyle="bold|italic"
+            android:textSize="20dp"
+            />
+        <TextView
+
+            android:id="@+id/city_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#ffffff"
+            android:text="city"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp">
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Country:"
+            android:textColor="#f5ea0505"
+            android:textStyle="bold|italic"
+            android:textSize="20dp"
+            />
+        <TextView
+
+            android:id="@+id/country_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#ffffff"
+            android:text="country"
+            />
+
+    </LinearLayout>
+
+
+
+
+    <EditText
+        android:id="@+id/phoneEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:hint="Phone"
+        android:textColorHint="#fbf9f5f5"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:digits="1234567890"
+        android:inputType="textPersonName"
+
+        android:layout_marginLeft="5dp"/>
+
+    <EditText
+        android:id="@+id/messageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Message"
+
+        android:textColorHint="#fbf9f5f5"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:inputType="textPersonName"
+
+        android:layout_marginLeft="5dp"/>
+
+
+
+
+
+    <Button
+        android:id="@+id/choose_bn"
+
+        android:text="Add photo"
+        android:layout_gravity="center"
+
+
+
+        android:textColor="#FFFFFF"
+
+        android:textSize="20sp"
+
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#FFDB63"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+
+        android:layout_marginTop="10dp"
+
+
+
+        />
+
+
+
+
+
+
+        <ImageView
+            android:id="@+id/imageview"
+
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+
+
+
+            />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <Button
+
+            android:id="@+id/insert"
+
+
+            android:text="send"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#FFDB63"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+
+            android:layout_gravity="center"
+
+
+            />
+
+
+
+
+
+
+
+
+</LinearLayout>
